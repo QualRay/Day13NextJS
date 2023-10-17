@@ -1,0 +1,50 @@
+header {
+  height: 200px !important;
+  width: auto;
+  border: 1px solid pink;
+  display: flex;
+}
+
+footer {
+  height: 100px !important;
+  width: auto;
+  border: 1px solid red;
+}
+
+
+main {
+  height: 600px;
+  border: 1px solid;
+}
+
+
+.word-wrap {
+  word-wrap: break-word;
+}
+
+.row{
+  display: flex;
+}
+
+.col {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #000;
+}
+
+.col:nth-child(2) {
+  flex: 3; /* B will take up 60% */
+}
+
+.col:first-child {
+  flex: 1; /* A will take up 20% */
+}
+
+.col:last-child {
+  flex: 2; /* C will take up 20% */
+}
+
+ul {
+  list-style-type: none;
+  padding: 1;
+}
